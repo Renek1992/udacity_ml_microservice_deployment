@@ -1,0 +1,6 @@
+(.devops) rene@rene-XPS-13-7390:~/Documents/misc/udacity_ml_microservice_deployment$ ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "udacitymlapi" already exists
+NAME           READY   STATUS    RESTARTS   AGE
+udacitymlapi   1/1     Running   0          17h
+Forwarding from 127.0.0.1:8000 -> 80
+Handling connection for 8000
