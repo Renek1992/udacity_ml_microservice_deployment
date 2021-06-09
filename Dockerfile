@@ -8,8 +8,7 @@ COPY . app.py /app/
 
 ## Step 3:
 # hadolint ignore=DL3013
-RUN pip install --upgrade pip &&\
-    pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 ## Step 4:
 EXPOSE 80
